@@ -52,3 +52,4 @@ public class Soal6 {
         input.close();
     }
 }
+
