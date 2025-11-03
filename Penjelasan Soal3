@@ -1,0 +1,20 @@
+Penjelasan:
+
+if (angka < 0)
+→ Cek apakah angka itu negatif. Kalau iya, faktorial nggak bisa dihitung.
+
+else if (angka > 20)
+→ Kamu harus batasin agar hasil tidak terlalu besar (karena long maksimal itu 9,22×10¹⁸).
+
+long faktorial = 1;
+→ Nilai awal faktorial adalah 1 (karena 0! dan 1! = 1).
+
+for (int i = 1; i <= angka; i++)
+→ Loop dari 1 sampai angka.
+
+faktorial *= i;
+→ Sama dengan faktorial = faktorial * i;, yaitu mengalikan hasil sebelumnya dengan angka berikutnya.
+
+Setelah loop selesai, faktorial berisi hasil akhirnya.
+
+![alt text] (https://github.com/rafi-dev22/Public/blob/main/Screenshot%202025-11-03%20212326.png?raw=true)
