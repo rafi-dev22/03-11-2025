@@ -1,0 +1,21 @@
+Program ini dibuat untuk menghitung biaya ekspedisi berdasarkan berat, jarak, dan ukuran paket.
+Pertama, program menampilkan judul dan meminta pengguna memasukkan data, yaitu berat paket dalam kilogram, jarak pengiriman dalam kilometer, serta ukuran paket (panjang, lebar, dan tinggi) dalam sentimeter.
+
+Setelah itu, program menghitung volume paket dengan mengalikan panjang, lebar, dan tinggi. Volume ini digunakan untuk mengecek apakah paket terlalu besar atau tidak?.
+
+Kemudian program melihat jarak pengiriman.
+Jika jaraknya kurang dari atau sama dengan 10 km, maka biaya per kilogramnya adalah Rp4.250.
+Tapi kalau lebih dari 10 km, maka biayanya menjadi Rp6.000 per kilogram.
+
+Selanjutnya, program akan menghitung biaya utama dengan cara mengalikan berat paket dengan biaya per kilogram.
+Lalu dicek lagi: kalau volume paket lebih dari 100 cm³, maka ada tambahan biaya sebesar Rp50.000 karena dianggap terlalu besar atau berat.
+
+Terakhir, program akan menampilkan hasil perhitungan, yaitu volume paket dan harga per kilogram yang digunakan.
+Jadi misalnya kamu masukkan berat 5 kg, jarak 12 km, dan ukuran besar, hasilnya akan tampil seperti:
+
+Hasil perhitungan biaya ekspedisi:
+Volume paket adalah 150 cm³
+Biaya per kilogram adalah Rp6000
+Total biaya yang harus dikeluarkan adalah Rp80.000
+
+![alt text] (https://github.com/rafi-dev22/Public/blob/main/Screenshot%202025-11-03%20212113.png?raw=true)
