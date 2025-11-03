@@ -1,0 +1,19 @@
+Penjelasan nya:
+
+Scanner input = new Scanner(System.in);
+→ Membuat alat untuk membaca input dari keyboard.
+
+int angka = input.nextInt();
+→ Untuk menyimpan bil yang dimasukkan pengguna ke variabel angka.
+
+if (angka % 2 == 0)
+→ % Ini adalah operator sisa bagi. Misal kalau sisa pembagian angka ÷ 2 = 0, berarti genap.
+
+else
+→ Kalau bukan genap (dan misal sisanya 1), maka bil tersebut ganjil.
+
+input.close();
+→ Menutup Scanner 
+
+![alt text](https://github.com/rafi-dev22/Public/blob/main/Screenshot%202025-11-03%20212138.png?raw=true)
+
