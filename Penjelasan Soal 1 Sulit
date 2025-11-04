@@ -1,0 +1,32 @@
+Penjelasan:
+
+int jumlahSiswa = input.nextInt();
+→ Untuk menyimpan jumlah siswa yang akan dihitung nilainya.
+
+if (jumlahSiswa <= 0)
+→ Pastikan input tidak negatif.
+
+double totalNilai = 0;
+→ Ini adalah tempat menjumlahkan semua nilai siswa.
+
+for (int i = 1; i <= jumlahSiswa; i++)
+→ Untuk mengulang sebanyak jumlah siswa yang di inginkan.
+
+double nilaiSiswa = input.nextDouble();
+→ Untuk meminta nilai dari masing-masing siswa.
+
+if (nilaiSiswa < 0 || nilaiSiswa > 100)
+→ Pastikan nilai berada di rentang 0 sampai 100.
+
+totalNilai += nilaiSiswa;
+→ Untuk menambahkan nilai ke total keseluruhan.
+
+Setelah loop selesai:
+rataRata = totalNilai / jumlahSiswa;
+→ program akan menghitung rata-rata.
+
+System.out.printf digunakan supaya hasilnya rapi.
+
+
+![alt text] (https://github.com/rafi-dev22/Public/blob/main/Screenshot%202025-11-03%20214341.png?raw=true)
+
