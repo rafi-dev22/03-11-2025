@@ -1,0 +1,37 @@
+Penjelasan Cara Kerja Program ini:
+
+Program ini dibuat untuk menjumlahkan dua buah matriks (A dan B) yang memiliki ukuran baris dan kolom yang sama.
+
+Pertama, program menyapa pengguna 
+"=== Welcome to the Matrix Addition Program :) ==="
+
+Lalu, pengguna diminta memasukkan jumlah baris dan kolom matriks menggunakan Scanner.
+Nilai ini akan menentukan ukuran matriks yang akan dibuat.
+
+Program kemudian membuat tiga buah array dua dimensi:
+
+matriksA untuk menyimpan elemen-elemen matriks pertama.
+
+matriksB untuk menyimpan elemen-elemen matriks kedua.
+
+hasil untuk menyimpan hasil penjumlahan dari A + B.
+
+Setelah itu, program meminta pengguna memasukkan nilai untuk setiap elemen matriks A satu per satu.
+Misalnya pengguna mengisi nilai A[0][0], A[0][1], dan seterusnya sesuai ukuran matriks.
+
+Program melakukan hal yang sama untuk memasukkan elemen matriks B.
+
+Setelah kedua matriks selesai diisi, program melakukan proses penjumlahan elemen per elemen:
+
+hasil[𝑖][𝑗]=
+matriksA [𝑖] [𝑗]+
+matriksB [𝑖] [𝑗]
+hasil[i][j]= matriksA[i][j]+matriksB[i][j]
+
+
+![alt text](https://github.com/rafi-dev22/Public/blob/main/Screenshot%202025-11-03%20214609.png?raw=true)
+Selanjutnya, program menampilkan hasil penjumlahan matriks A + B ke layar dengan format baris per baris.
+
+Di dalam proses menampilkan hasil, program juga menuliskan pesan "Terima Kasih :)" setiap kali mencetak satu elemen (meskipun sebenarnya lebih baik ditulis setelah seluruh matriks selesai ditampilkan).
+
+Setelah semua hasil ditampilkan, program menutup Scanner untuk mengakhiri input.
