@@ -1,0 +1,31 @@
+Penjelasan nya:
+
+Program ini dibuat untuk menghitung volume tabung 
+
+di mana r adalah jari-jari dan h adalah tinggi tabung.
+
+Pertama program meminta pengguna memasukkan jari-jari (r) dan tinggi (h) tabung melalui keyboard menggunakan Scanner.
+
+Sebelum nilai dimasukkan, program akan ngecek apakah input benar-benar berupa angka?.
+
+Kalau pengguna salah input, program akan meminta ulang sampai yang dimasukkan adalah angka.
+
+Setelah itu, program akan mengecek apakah nilai jari-jari atau tinggi bernilai negatif?.
+
+Jika ada yang negatif, program bakal nampilin pesan:
+"Jari-jari dan tinggi harus bernilai positif!"
+
+Jika nilainya valid (positif), program memanggil fungsi hitungVolumeTabung(), yaitu fungsi yang menghitung volume menggunakan rumus matematika tadi.
+
+Hasil perhitungan kemudian ditampilkan ke layar dengan format yang rapi, menampilkan:
+
+Nilai jari-jari
+
+Nilai tinggi 
+
+Hasil volume tabung.
+
+Terakhir, program akan menutup Scanner agar penggunaan input selesai dengan baik.
+
+
+![alt text](https://github.com/rafi-dev22/Public/blob/main/Screenshot%202025-11-03%20214128.png?raw=true)
